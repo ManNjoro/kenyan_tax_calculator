@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+h1{
+    background-color:rgb(241, 56, 56);
+    margin: 0;
+    text-align:center;
+    padding: 5px;
+}
+.body{
+    display: inline-flex;
+    margin-top: 30px;
+}
+label{
+    display: inline-block;
+    width: 140px;
+    margin: 24px;
+}
+#old{
+    margin-left: 196px;
+}
+.container{
+    
+    background-color: rgb(158, 158, 247);
+    width: 500px;
+    padding: 4px;
+    margin-left: 100px;
+    
+}
+#btn{
+    width: 100%;
+    background-color: rgb(25, 250, 25);
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    cursor: pointer;
+    font-size:medium;
+    margin-top: 30px;
+}
+#btn:hover{
+    background-color:rgb(248, 48, 48);
+}
+table,th,td{
+    border:2px solid #000;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-weight: medium;
+    text-transform:uppercase;
+    width: 400px;
+    background-color: white;
+    font-family:inherit
+}
+#payeresults{
+    margin-right: 50px;
+    padding: 60px;
+    background-color: rgb(67, 67, 68)
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

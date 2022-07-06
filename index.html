@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Tax calculator</title>
+</head>
+<body>
+    <h1>KENYAN TAX CALCULATOR</h1>
+    <div class="body">
+    <div class="container">
+        <div class="form">
+            <form>
+                <label>PAY PERIOD:</label>
+                <input type="radio" name="payperiod" id="month" value="month">MONTH
+                <input type="radio" name="payperiod" id="year" value="year">YEAR<br>
+                <label>BASIC SALARY:</label>
+                <input type="number" name="number" id="bsalary" placeholder="Enter salary in ksh" required=""><br>
+                <label>BENEFITS(BONUS,<br>ALLOWANCE):</label>
+                <input type="number" id="allowance" placeholder="Enter salary in ksh"><br>
+                <label>DEDUCT NSSF:</label>
+                <input type="radio" name="nssf" id="nssfYes" value="yes">YES
+                <input type="radio" name="nssf"  id="nssfNo" value="no">NO<br>
+                <label>NSSF RATES:</label>
+                <input type="radio" name="rates" id="newNssf" value="new">NEW NSSF RATES (TIERED)<br>
+                <input type="radio" name="rates" id="old" value="old">OLD NSSF RATES(KSH200)<br>
+                <label>DEDUCT NHIF:</label>
+                <input type="radio" name="nhif" id="nhifYes" value="yes">YES
+                <input type="radio" name="nhif" id="nhifNo" value="no">NO<br>
+                <input id="btn" type="button" value="CALCULATE">
+            </form>
+        </div>
+    </div>
+    <div id="payeresults">
+        <table class="border" align="right">
+            <tbody>
+             <tr>
+              <td class="results-label">Income Before Pension Deduction</td>
+              <td class="beforepension">Ksh0.00</td>
+              </tr>
+              <tr>
+              <td class="results-label">Deductible NSSF Pension Contribution</td>
+              <td class="deductable_nssf">Ksh0.00</td>
+              </tr>
+              <tr>
+              <td class="results-label">Income After Pension Deductions</td>
+              <td class="afterPension">Ksh0.00</td>
+              </tr>
+              <tr>
+              <td class="results-label">Benefits in Kind</td>
+              <td class="benefits">Ksh0.00</td>
+              </tr>
+              <tr>
+              <td class="results-label">Taxable Income</td>
+              <td class="resultsamount">Ksh0.00</td>
+              </tr>
+              <tr>
+              <td class="results-label">Tax on Taxable Income</td>
+              <td class="taxOnTaxable">Ksh0.00</td>
+              </tr>
+              <tr>
+              <td class="results-label">Personal Relief</td>
+              <td class="relief">Ksh0.00</td>
+              </tr>
+              <tr>
+              <td class="results-label">Tax Net off Relief</td>
+              <td class="taxOffRelief">Ksh0.00</td>
+              </tr>
+             
+              <tr>
+              <td class="results-label">PAYE</td>
+              <td class="paye">Ksh0.00</td>
+              </tr>
+             <tr>
+              <td class="results-label">Chargeable Income</td>
+              <td class="chargableIncome">Ksh0.00</td>
+              </tr>
+              <tr>
+              <td class="results-label">NHIF Contribution</td>
+              <td class="nhif">Ksh0.00</td>
+              </tr>
+              <tr>
+              <td class="results-label">Net Pay</td>
+              <td class="netPay">Ksh0.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <script src="./assets/main.js"></script>
+</body>
+</html>
