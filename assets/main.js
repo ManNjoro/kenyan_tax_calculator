@@ -125,7 +125,7 @@ else if(gross > 89999 && gross < 100000){
 else if(gross >= 100000){
     nhif=1700;
 }
-else{
+else if(gross<1000){
     alert('salary is less than 1000ksh');
 }
 if(year.checked==true){
@@ -193,10 +193,10 @@ const calculate_tax = () =>{
         tax = (((taxableIncome - 23886)* 20/100) + 2967.85);
     }
     else if(taxableIncome >= 35473 && taxableIncome <= 47059){
-        tax = (((taxableIncome - 35473)* 25/100) + 5284.65);
+        tax = (((taxableIncome - 35473)* 25/100) + 5285.25);
     }
     else if(taxableIncome > 47059){
-        tax = (((taxableIncome - 47059)* 30/100) + 8181.15);
+        tax = (((taxableIncome - 47059)* 30/100) + 8182);
     }
     else{
         console.log('error');

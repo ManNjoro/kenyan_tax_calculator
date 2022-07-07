@@ -6,6 +6,7 @@ h1{
     margin: 0;
     text-align:center;
     padding: 5px;
+    width:100%;
 }
 .body{
     display: inline-flex;
@@ -51,7 +52,6 @@ table,th,td{
     font-family:inherit
 }
 #payeresults{
-    margin-right: 50px;
     padding: 60px;
     background-color: rgb(67, 67, 68)
 }
