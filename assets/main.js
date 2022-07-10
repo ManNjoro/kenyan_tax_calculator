@@ -60,7 +60,7 @@ const calculateYearTax = () => {
         tax = (((taxableIncome - 564709)* 30/100) + 98183.8);
     }
     else{
-        console.log('error');
+        console.log('error!');
     }
     relief.innerHTML = yearRelief;
     let yearPaye = tax-yearRelief;
