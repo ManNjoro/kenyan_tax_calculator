@@ -7,7 +7,6 @@ let relief = document.querySelector('.relief');
 let monthRelief = 2400;
 let yearRelief = 28800;
 let paye = document.querySelector('.paye');
-//let gross =parseFloat (bsalary.value) + parseFloat (allowance.value);
 let nhifContribution = document.querySelector('.nhif');
 let netPay = document.querySelector('.netPay');
 let beforePension = document.querySelector('.beforepension');
