@@ -33,7 +33,6 @@ const add = () => {
     beforePension.innerHTML=add(); 
     
     nhifContribution.innerHTML = nhif();
-    // relief.innerHTML=monthRelief;
     deductableNssf.innerHTML=nssfContribution();
     benefits.innerHTML=parseFloat (allowance.value);
     netPay.innerHTML=netpay();
