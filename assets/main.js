@@ -128,13 +128,16 @@ else if(gross >= 100000){
 else if(gross<1000){
     alert('salary is less than 1000ksh');
 }
-if(year.checked==true){
-    return nhif*12;
+if(year.checked==true && nhifYes.checked==true){
+    nhif*=12;
 }
-else{
-  return nhif;  
+else if(month.checked==true && nhifYes.checked==true){
+    nhif+=0;
 }
-
+else if(nhifYes.checked==false){
+    nhif=0;
+}
+return nhif;
 }
 //NSSF
 const nssfContribution = () =>

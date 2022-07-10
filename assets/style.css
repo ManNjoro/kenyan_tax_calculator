@@ -60,3 +60,11 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+.ksh{
+    background-color: white;
+    padding: 0px;
+    text-transform: capitalize;
+    padding-bottom: 2px;
+    font-weight: bold;
+    padding-right: 2px;
+}
