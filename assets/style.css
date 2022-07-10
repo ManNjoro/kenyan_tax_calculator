@@ -49,7 +49,7 @@ table,th,td{
     text-transform:uppercase;
     width: 400px;
     background-color: white;
-    font-family:inherit
+    font-family:inherit;
 }
 #payeresults{
     padding: 60px;
